@@ -26,6 +26,14 @@ html {
   background-color: var(--dark-col);
 }
 
+.puzzle-wrapper {
+  width: 90vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
 .cells,
 .puzzle {
   width: var(--width);
