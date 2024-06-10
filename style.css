@@ -19,11 +19,26 @@ html {
   --height: 24vw;
 }
 
-
-
 .container {
   height: 100vh;
   display: grid;
   place-items: center;
   background-color: var(--dark-col);
+}
+
+.cells,
+.puzzle {
+  width: var(--width);
+  height: var(--height);
+  border: 0.1rem solid var(--prim-col);
+  background-color: var(--lite-col);
+}
+
+.final-img {
+  width: 35vw;
+  aspect-ratio: 16 / 9;
+  background-image: url(./images/pic-2.jpg); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
