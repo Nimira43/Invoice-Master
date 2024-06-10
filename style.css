@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fredericka the Great', serif;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --dark-col: #111;
+  --prim-col: #ff4500;
+  --lite-col: #f5f5dc;
+  --width: 40vw;
+  --height: 24vw;
+}
+
+body {
+  background-color: var(--dark-col);
+}
+
