@@ -1,7 +1,7 @@
 import Elements from "./elements.js"
 
 class PositionElements {
-  contructor() {
+  constructor() {
     this.elements = new Elements()
   }
 }
