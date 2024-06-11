@@ -18,7 +18,7 @@ class Elements {
       draggableDiv.setAttribute('draggable', true)
       this.draggableDivs.push(draggableDiv)
     }
-    console.log(this.puzzleDivs, this.draggableDivs);
+    
   }
 }
 
