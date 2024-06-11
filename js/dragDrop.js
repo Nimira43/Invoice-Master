@@ -1,4 +1,4 @@
-import PositionElements from "./positionElements"
+import PositionElements from "./positionElements.js"
 
 class DragDrop {
   constructor() {

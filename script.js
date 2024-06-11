@@ -1,3 +1,3 @@
-import DragDrop from "./js/dragDrop"
+import DragDrop from "./js/dragDrop.js"
 
 new DragDrop()
