@@ -60,8 +60,52 @@ section {
   border-bottom: 0.2rem solid khaki;
   text-align: right;
   user-select: none;
-  
 }
+
+@media (max-width: 1200px) {
+  .section-1-heading-wrapper {
+    width: 80%;
+  }
+  .section-1-heading {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .section-1-heading {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-1-heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
