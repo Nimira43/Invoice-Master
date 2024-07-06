@@ -18,6 +18,7 @@ html {
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 section {
@@ -27,7 +28,7 @@ section {
   left: 0;
 }
 
-.section-1 {
+.section-2 {
   z-index: 50;
 }
 
@@ -57,9 +58,43 @@ section {
   color: #eee;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
-  border-bottom: 0.2rem solid khaki;
+  border-bottom: 0.2rem solid #4c954c;
   text-align: right;
   user-select: none;
+}
+
+.section-2-wrapper {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.6)),
+    url(images/wine-bottle.png) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sale-bag {
+  opacity: 0.9;
+  width: 24rem;
+}
+
+.sale-btn {
+  width: 20rem;
+  height: 5rem;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #eee;
+  background-color: #011e01;
 }
 
 @media (max-width: 1200px) {
