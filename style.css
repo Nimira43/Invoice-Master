@@ -117,6 +117,24 @@ section {
   width: 80rem;
 }
 
+@media (max-width: 1600px) {
+  .sale-bag {
+    width: 35rem;
+  }
+  .wine-bottle {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .sale-bag {
+    width: 30rem;
+  }
+  .wine-bottle {
+    width: 60rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .section-1-heading-wrapper {
     width: 80%;
@@ -124,17 +142,54 @@ section {
   .section-1-heading {
     font-size: 8rem;
   }
+  .sale-bag {
+    width: 25rem;
+  }
+  .sale-btn {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.7rem;
+  }
+  .wine-bottle {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-2-wrapper {
+    flex-direction: column;
+  }
+  .sale {
+    order: 1;
+  }
 }
 
 @media (max-width: 800px) {
   .section-1-heading {
     font-size: 6rem;
   }
+  .sales-bag {
+    width: 20rem;
+  }
+  .wine-bottle {
+    width: 40rem;
+  }
 }
 
 @media (max-width: 600px) {
   .section-1-heading {
     font-size: 4rem;
+  }
+  .sale-bag {
+    width: 15rem;
+  }
+  .wine-bottle {
+    width: 30rem;
+  }
+  .sale-btn {
+    width: 12rem;
+    height: 3rem;
+    font-size: 1.4rem;
   }
 }
 
