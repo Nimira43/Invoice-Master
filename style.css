@@ -47,7 +47,7 @@ section {
   background: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.6)),
-    url(images/vineyard.jpg) center no-repeat;
+    url(images/sec-1.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -71,9 +71,9 @@ section {
 
 .section-2-wrapper {
   background: linear-gradient(
-    rgba(0, 0, 0, 0.9),
-    rgba(0, 0, 0, 0.8)),
-    url(images/winerack.jpg) center no-repeat;
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url(images/sec-2.jpg) center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -116,6 +116,8 @@ section {
   opacity: 0.6;
   width: 80rem;
 }
+
+
 
 @media (max-width: 1600px) {
   .sale-bag {
