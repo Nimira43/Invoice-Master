@@ -10,6 +10,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+:root {
+  --primary-dk: #104810;
+  --primary-lg: #4c954c;
+  --light: #eee;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -55,19 +61,19 @@ section {
 .section-1-heading {
   font-size: 10rem;
   font-weight: 500;
-  color: #eee;
+  color: var(--light);
   text-transform: capitalize;
   letter-spacing: 0.1rem;
-  border-bottom: 0.2rem solid #4c954c;
+  border-bottom: 0.2rem solid var(--primary-lg);
   text-align: right;
   user-select: none;
 }
 
 .section-2-wrapper {
   background: linear-gradient(
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.6)),
-    url(images/wine-bottle.png) center no-repeat;
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.8)),
+    url(images/winerack.jpg) center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -93,8 +99,22 @@ section {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #eee;
-  background-color: #011e01;
+  color: var(--primary-lg);
+  background-color: transparent;
+  border: 0.1rem solid var(--primary-lg);
+  border-radius: 0.5rem;
+  margin-top: 4rem; 
+  transition: all 0.5s ease-in;
+}
+
+.sale-btn:hover {
+  border: 0.1rem solid var(--light);
+  color: var(--light);
+}
+
+.wine-bottle {
+  opacity: 0.6;
+  width: 80rem;
 }
 
 @media (max-width: 1200px) {
