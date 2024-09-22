@@ -117,7 +117,16 @@ section {
   width: 80rem;
 }
 
-
+.section-3-wrapper {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url(images/sec-3.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 1600px) {
   .sale-bag {
